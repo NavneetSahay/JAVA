@@ -1,10 +1,3 @@
-/******************************************************************************
-
-                            Online Java Compiler.
-                Code, Compile, Run and Debug java program online.
-Write your code in this editor and press "Run" button to execute it.
-
-*******************************************************************************/
 import java.util.Scanner;
 public class Calculator
 {
@@ -16,7 +9,7 @@ public class Calculator
 		int num1 = scan.nextInt();
 		System.out.println(" Enter Second number:");
 		int num2 = scan.nextInt();
-		System.out.println(" Enter\n 1 : ADD    ||    2 :SUBTRACT\3 : MULTIPLY    ||    4: DIVIDE");
+		System.out.println(" Enter\n 1 : ADD    ||    2 :SUBTRACT\n3 : MULTIPLY    ||    4: DIVIDE");
 		int cs = scan.nextInt();
 		System.out.println(" :" +cs);
 		switch(cs)
@@ -28,12 +21,15 @@ public class Calculator
 		    case 2:
 		        int Sub = num1-num2;
 		        System.out.println("SUBTRACT :"+Sub);
+			break;
 		    case 3:
 		        int Mul = num1*num2;
 		        System.out.println("MULTIPLY:"+Mul);
+			break;
 		    case 4:
 		        float Div = num1/num2;
 		        System.out.println("DIVIDE:"+Div);
+			break;
 		    default:
 		        System.out.println("Enter a valid number");
 		        break;
