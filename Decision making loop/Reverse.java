@@ -14,6 +14,6 @@ public class Reverse
           rev = rev *10+temp;
           num = num/10;
       }
-      System.out.println(rev);
+      System.out.println("REVERSE OF NUMBER :"+rev);
   }
 }
