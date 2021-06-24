@@ -1,5 +1,5 @@
 /*
-Reverse a number in array.
+Take n integer inputs from user and store them in an array. Now, copy all the elements in an another array but in reverse order.
 */
 import java.util.*;
 public class Coppy_Reverse
