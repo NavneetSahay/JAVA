@@ -1,4 +1,10 @@
-//Write a program to check if elements of an array are same or not it read from front or back.
+/*Take an array of n elements. Split it into middle and store the elements in two dfferent arrays. E.g.-
+INITIAL array :
+58	24	13	15	63	9	8	81	1	78
+
+After spliting :
+58	24	13	15	63
+9	8	81	1	78*/
 import java.util.*;
 public class Split2middle
 {
